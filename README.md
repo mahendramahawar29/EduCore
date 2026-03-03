@@ -49,7 +49,7 @@ educore-lms/
 
 ### 1️⃣ Clone Repository
 
-git clone https://github.com/your-username/educore-lms.git  
+git clone https://github.com/mahendramahawar29/EduCore.git  
 cd educore-lms
 
 ---
