@@ -14,6 +14,7 @@ import View from './components/View'
 import CreateCourse from './CreateCourse'
 import MyCourses from './components/pages/account/MyCourses'
 import WatchCourse from './components/pages/account/WatchCourse'
+import Counter from './components/Counter'
 
 function App() {
 
@@ -31,6 +32,7 @@ function App() {
 					<Route path='/account/my-courses/view' element={<View/>}/>
 					<Route path='/account/my-courses/create' element={<CreateCourse/>}/>
 					<Route path='/account/watch-course' element={<WatchCourse/>}/>
+					<Route path='/counter' element={<Counter/>}/>
 				</Routes>
 			</BrowserRouter>			
 		</>
